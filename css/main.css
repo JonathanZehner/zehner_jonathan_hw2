@@ -1,527 +1,368 @@
+/*-- Reset Rule --*/
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*--************************** Universal Styling (begin)*****************--*/
+
+/*-- Font Families --------------
+
+  Charmonman
+  Krub
+  Oswald
+
+--------------------------------*/
+
 body {
-    margin: 0;
-    padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
-    font-family: 'Krub', Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #5B5B5B;
+  background: #050505 url(../images/img01.jpg) repeat;
+  font-family: 'Krub', Arial, Helvetica, sans-serif;
+  color: #5B5B5B;
 }
 
 h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-    font-family: 'Charmonman', cursive;
-    font-weight: 200;
-    color: #222222;
-}
-
-h1 {
-    font-size: 2em;
+  font-weight: normal;
+  font-family: 'Charmonman', cursive;
+  font-weight: 200;
+  color: #222222;
 }
 
 h2 {
-    font-size: 2.8em;
-}
-
-h3 {
-    font-size: 1.6em;
+  font-size: 2rem;
+  text-align: center;
 }
 
 p, ul, ol {
-    margin-top: 0;
-    line-height: 180%;
-}
-
-ul, ol {
+  margin-top: 0;
+  line-height: 180%;
 }
 
 a {
-    color: #5E5E5E;
-}
-
-a:hover {
-}
-
-#wrapper {
-    background: #FFFFFF url(../images/img05.jpg) repeat;
-}
-
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
-
-/* Header */
-
-#header-wrapper {
-    overflow: hidden;
-}
-
-#header {
-    width: 1000px;
-    height: 150px;
-    margin: 0 auto;
-    padding: 0px 0px;
-}
-
-/* Logo */
-
-#logo {
-    float: left;
-    width: 300px;
-    margin: 0;
-    padding: 0;
-    color: #FFFFFF;
-}
-
-#logo h1, #logo p {
-}
-
-#logo h1 {
-    line-height: 120px;
-    letter-spacing: -2px;
-    font-size: 3.8em;
-}
-
-#logo h1 a {
-    color: #1F1F1F;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
-}
-
-#logo a {
-    border: none;
-    background: none;
-    text-decoration: none;
-    color: #000000;
-}
-
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
-}
-
-/* Menu */
-
-#menu {
-    float: right;
-    width: 500px;
-    height: 90px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#menu ul {
-    float: right;
-    margin: 0;
-    padding: 20px 0px 0px 0px;
-    list-style: none;
-    line-height: normal;
-}
-
-#menu li {
-    float: left;
-}
-
-#menu a {
-    display: block;
-    line-height: 100px;
-    margin-right: 1px;
-    padding: 0px 20px 0px 20px;
-    text-decoration: none;
-    text-align: center;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    color: #1F1F1F;
-    border: none;
-}
-
-#menu a:hover, #menu .current_page_item a {
-    background: url(../images/img01.jpg) repeat;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-#menu .current_page_item a {
-}
-
-/* Page */
-
-#page {
-    width: 1000px;
-    margin: 0 auto;
-    padding: 30px 0px;
-}
-
-/* Content */
-
-#content {
-    float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
-}
-
-.post {
-    overflow: hidden;
-    margin-bottom: 40px;
-    border-bottom: 1px solid #E7EBED;
-}
-
-.post .title {
-    padding: 7px 0px 0px 0px;
-    letter-spacing: -1px;
-}
-
-.post .title a {
-    border: none;
-    text-decoration: none;
-    color: #222222;
-}
-
-.post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
-    text-align: left;
-    font-family: 'Abel', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-}
+  color: #5E5E5E;
+}
 
-.post .meta .date {
-    float: left;
+.hero {
+  max-height: 300px;
+  max-width: 1000px;
+  width: 100%;
 }
 
-.post .meta .posted {
-    float: right;
+.img-md {
+  max-width: 420px;
+  width: 100%;
 }
-
-.post .meta a {
-}
-
-.post .entry {
-    padding: 0px 0px 40px 0px;
-    text-align: justify;
-}
-
-.entry img {
-    float: right;
-    width: 400px;
-    padding: 0 0 0 20px;
-}
-
-.links {
-    padding-top: 20px;
-    margin-bottom: 30px;
-}
-
-.more {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
-    background: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
-}
-
-.comments {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    background: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* Sidebar */
-
-#sidebar {
-    float: left;
-    width: 270px;
-    margin: 0px;
-    padding: 30px 0px 0px 0px;
-}
-
-#sidebar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#sidebar li {
-    margin: 0;
-    padding: 0;
-}
-
-#sidebar li ul {
-    margin: 0px 0px;
-    padding-bottom: 30px;
-}
-
-#sidebar li li {
-    line-height: 40px;
-    border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
-    border-left: none;
-}
-
-#sidebar li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
-}
-
-#sidebar li li a {
-    padding: 0px 0px 0px 20px;
-    background: url(../images/img04.jpg) no-repeat left 50%;
-}
-
-#sidebar h2 {
-    height: 38px;
-    padding: 20px 0px 0px 0px;
-    letter-spacing: -.5px;
-    font-size: 1.8em;
-    color: #222222;
-}
-
-#sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
-    text-align: justify;
-}
-
-#sidebar a {
-    border: none;
-}
-
-#sidebar a:hover {
-    text-decoration: underline;
+
+.wrapper {
+  background: #FFFFFF url(../images/img05.jpg) repeat;
 }
+/*--************************** Universal Styling (end)*****************--*/
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
-
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-#footer-content a {
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
+/*-- Header (begin) --*/
+.header-wrapper {
+  overflow: hidden;
 }
 
-/* Footer */
-
-#footer {
-    height: 140px;
-    margin: 0 auto;
-    padding: 50px 0 15px 0;
-    font-family: 'Abel', sans-serif;
-}
+/*--************* Hamburger Menu (begin) **************--*/
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 3%;
+  right: 0;
+  line-height: 40px;
+  padding: 5px 15px 0px 15px;
+  color: #222222;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:2.8%;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#222222;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu {
+  z-index:1000000;
+  font-weight:bold;
+  font-size:1rem;
+  width:100%;
+  background: #FFFFFF url(../images/img05.jpg) repeat;
+  position:absolute;
+  text-align:center;
+  font-size:12px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.menu li {
+  display: block;
+  padding:15px 0 15px 0;
+  border-bottom:#dddddd 1px solid;
+}
+
+.menu li:hover {
+  display: block;
+  background: #050505 url(../images/img01.jpg) repeat;
+  padding:15px 0 15px 0;
+  border-bottom:#dddddd 1px solid;
+}
+
+.menu ul li a {
+  text-decoration:none;
+  margin: 0px;
+  color:#222222;
+}
+
+.menu ul li a:hover {
+  color: #FFFFFF;
+  text-decoration:none;
+}
+
+.menu a {
+  text-decoration:none;
+  color:#666;
+}
 
-#footer p {
-    margin: 0;
-    padding-top: 10px;
-    letter-spacing: 1px;
-    line-height: normal;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #5E5E5E;
+.menu a:hover {
+  text-decoration:none;
+  color: #FFFFFF;
 }
+/*--************* Hamburger Menu (end) **************--*/
 
-#footer a {
-    color: #5E5E5E;
+/*-- Desktop-Menu --*/
+.desktop-menu {
+  display: none;
+  height: 90px;
+  padding: 0;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
+.desktop-menu ul {
+  padding: 20px 0px 0px 0px;
+  list-style: none;
+  line-height: normal;
 }
 
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
+.desktop-menu a {
+  display: block;
+  line-height: 100px;
+  margin-right: 1px;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #1F1F1F;
+  border: none;
 }
 
-#marketing .text2 {
-    float: right;
+.desktop-menu a:hover, .desktop-menu .current_page_item a {
+  background: url(../images/img01.jpg) repeat;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../images/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
+/*-- Logo --*/
+.logo {
+  line-height: 120px;
+  letter-spacing: -2px;
+  font-size: 3rem;
 }
 
 #banner {
-    margin: 0px auto;
+  background: url(../images/img03.png) no-repeat left bottom;
+  margin: 0px auto;
+}
+/*-- Header (end) --*/
+
+/*-- Page --*/
+.page {
+  padding: 3%;
+}
+
+/*-- Content --*/
+.post {
+  border-bottom: 1px solid #E7EBED;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.post .title {
+  padding: 7px 0px 0px 0px;
+  letter-spacing: -1px;
+}
+
+.post .title a {
+  border: none;
+  text-decoration: none;
+  color: #222222;
+}
+
+.date-posted {
+  margin-bottom: 5px;
+}
+
+.post .meta,
+.post .posted {
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.more, .comments {
+  background: #222222;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*-- Content (end)--*/
+
+/*-- Sidebar --*/
+
+aside {
+  text-align: center;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside li ul {
+  padding: 0 0 30px 20%;
+  text-align: left;
+}
+
+aside li li {
+  line-height: 40px;
+  border-bottom: 1px solid #E7EBED;
+  border-left: none;
+}
+
+aside li li a {
+  padding: 0px 0px 0px 20px;
+  background: url(../images/img04.jpg) no-repeat left 50%;
+}
+
+aside h3 {
+  color: #222222;
+  font-size: 1.8em;
+  height: 38px;
+  letter-spacing: -.5px;
+  padding: 20px 0px 0px 0px;
+  text-align: left;
+}
+
+aside a {
+  border: none;
+  text-decoration: none;
+}
+
+aside  a:hover {
+  text-decoration: underline;
+}
+/*-- Sidebar (end)--*/
+
+/*-- Footer --*/
+footer {
+  padding: 50px 0 50px 0;
+  font-family: 'Abel', sans-serif;
+}
+
+footer p {
+  letter-spacing: 1px;
+  line-height: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*-- Footer (end)--*/
+/*--****************** Start 1000 Min Width Media Query ********************--*/
+
+@media (min-width: 1000px) {
+
+  h2 {
+    text-align: left;
+  }
+
+  /*-- Header --*/
+  .container {
     width: 1000px;
-    height: 340px;
-    background: url(../images/img03.png) no-repeat left bottom;
-}
+  }
 
-#banner .content {
-}
+  /*-- Page --*/
+  .page {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+    width: 1000px;
+  }
 
+  /*-- Content --*/
+  #content {
+    order: 2;
+    width: 65%;
+  }
 
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
+  .post {
+    margin-bottom: 40px;
+  }
 
-.list-style1 a {
-    color: #7F7F7F;
+  .post .meta,
+  .post .posted {
+    margin-bottom: 15px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  /*-- Sidebar --*/
+  aside {
+    order: 1;
+    padding-left: 3%;
+    text-align: left;
+    width: 25%;
+  }
+
+  .aside-flex {
+    display: block;
+  }
+
+  /*-- Footer --*/
+  #banner {
+  }
+
+  footer {
+    height: 140px;
+    padding: 50px 0 15px 0;
+  }
 }
+/*--****************** End 1000 Min Width Media Query **********************--*/
