@@ -525,3 +525,20 @@ footer p {
   }
 }
 /*--****************** End 1000 Min Width Media Query **********************--*/
+
+
+/*--****************** Start 1020 Min Width Media Query ********************--*/
+
+@media (min-width: 1020px){
+
+  .header-wrapper {
+    margin: auto;
+    width: 1000px;
+  }
+
+  .img-md {
+    float: right;
+  }
+}
+
+/*--****************** End 1020 Min Width Media Query **********************--*/
