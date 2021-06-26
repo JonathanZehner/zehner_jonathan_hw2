@@ -409,6 +409,61 @@ footer p {
 }
 /*--****************** End 750 Min Width Media Query **********************--*/
 
+/*--****************** Start 850 Min Width Media Query ********************--*/
+
+@media (min-width: 850px) {
+
+  .img-md {
+    float: none;
+  }
+
+  /*-- Page --*/
+  .page {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 3%;
+  }
+
+  /*-- Content --*/
+  #content {
+    order: 2;
+    width: 65%;
+  }
+
+  .post {
+    margin-bottom: 40px;
+  }
+
+  .post .meta,
+  .post .posted {
+    margin-bottom: 15px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  /*-- Sidebar --*/
+  aside {
+    order: 1;
+    text-align: left;
+    width: 50%;
+  }
+
+  .aside-flex {
+    display: block;
+  }
+
+  .aside-flex h3 {
+    text-align: left;
+  }
+
+  .flex-li, .flex-li-2 {
+    padding-left: 0;
+  }
+
+
+}
+/*--****************** End 850 Min Width Media Query **********************--*/
+
 
 /*--****************** Start 1000 Min Width Media Query ********************--*/
 
