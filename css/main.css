@@ -336,6 +336,79 @@ footer p {
 
 /*--****************** End 465 Min Width Media Query **********************--*/
 
+/*--****************** Start 750 Min Width Media Query ********************--*/
+
+@media (min-width: 750px) {
+
+  .menu, .hamburger, .cross {
+    display: none;
+  }
+
+  /*-- Header --*/
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #header {
+    height: 150px;
+  }
+
+  #banner {
+    height: 340px;
+    width: 1000px;
+  }
+
+  /*-- Nav Menu --*/
+  .desktop-menu {
+    display: inline-block;
+    /* width: 55%; */
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-md {
+    float: right;
+    padding: 0 0 2% 3%;
+    width: 400px;
+  }
+
+  .links {
+    justify-content: flex-start;
+  }
+
+  .comments {
+    margin-left: 1.5%;
+  }
+
+  .aside-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .aside-flex li {
+    width: 90%;
+  }
+
+  .aside-flex h3 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .flex-li {
+    padding-left: 33%;
+  }
+
+  .flex-li-2 {
+    padding-left: 36%;
+  }
+
+}
+/*--****************** End 750 Min Width Media Query **********************--*/
+
 
 /*--****************** Start 1000 Min Width Media Query ********************--*/
 
